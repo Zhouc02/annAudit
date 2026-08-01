@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "annAudit"
+version = "1.0.0"
+authors = [
+  { name="Zhou C."},
+]
+description = "annAudit is a lightweight tool for validating AnnData objects."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=1.22.3,<3",
+    "pandas>=1.5,<3.1",
+    "anndata>=0.8.0",
+    "scipy>=1.8.1"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Zhouc02/annAudit"
+"Bug Tracker" = "https://github.com/Zhouc02/annAudit/issues"
