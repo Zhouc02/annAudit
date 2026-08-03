@@ -1,6 +1,6 @@
 # annAudit
 
-[![PyPI version](https://img.shields.io/pypi/v/annAudit.svg)](https://pypi.org/project/annAudit/)
+[![PyPI version](https://img.shields.io/pypi/v/annAudit.svg)](https://pypi.org/project/annAudit/) [![PyPI Downloads](https://static.pepy.tech/personalized-badge/annaudit?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/annaudit)
 
 **annAudit** is a read-only auditor for [`AnnData`](https://anndata.readthedocs.io/) objects used in single-cell and spatial omics workflows.
 
